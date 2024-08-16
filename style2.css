@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", "sans-serif";
+  }
+ 
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+      url("Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgb(98, 93, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    width: 28%;
+    text-align: center;
+    color: rgb(161, 143, 143);
+  } 
+
+
+  html {
+	  scroll-behavior: smooth;
+	}
+	
+	#about {
+	  height: 600px;
+	  background-color: rgb(154, 255, 110);
+    
+	}
+	
+	#contact {
+	  height: 600px;
+	  background-color: rgb(255, 255, 240);
+	}
+  
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color: #f67920;
+  }
+  
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  section h3 {
+    font-size: 55px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Tillana';
+  }
+
+  section h2 {
+    color: #f67920;
+    font-size: 75px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .btnone {
+  
+    background: #fff;
+    color: #000;
+  }
+  
+  .btnone:hover {
+    background: #f67920;
+    color: white;
+  }
+  
+  section .btntwo {
+    background: #f67920;
+    color: white;
+  }
+  
+  .btntwo:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #f67920;
+    font-family: 'Tillana', cursive;
+  }
+  #p2
+  {
+    width:auto;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    background-image:url(/image/back2.jpg);
+    background-size: cover;
+    box-sizing: content-box;
+
+  }
+  
+
+  
+  @keyframes changetext {
+    0% {
+      content: "नाशिक";
+    }
+    20% {
+      content: "पुणे";
+    }
+    35% {
+      content: "सातारा";
+    }
+    60% {
+      content: "अमरावती";
+    }
+    80% {
+      content: "धुळे ";
+    }
+    100% {
+      content: "मुंबई";
+    }
+  }
+  footer{
+    width:100%;
+    padding: 30px 0 0 20px;
+    background: #171515;
+    /*background-image: url("image/green3.jpg");*/
+    background-size:cover;
+    /* position:fixed;
+    bottom:*/ 
+}
+
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-right: 200px;
+}
+
+footer .footer_main .footer_tag{
+    text-align: center;
+    color: #e3d8d8;
+}
+
+
+
+footer  .footer_tag p{
+    margin: 10px 0;
+    color: #e3d8d8;
+}
+
+footer  .footer_tag i{
+    margin: 0 10px;
+    cursor: pointer;
+    color: #e3d8d8;
+}
+
+footer  .footer_tag i:hover{
+    color: #fac031;
+    
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #e3d8d8;
+}
+
+footer .end span{
+    color: #fac031;
+    margin-left: 10px;
+
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(142, 133, 133, 0.5);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fac031;
+    border-radius: 15px;
+}
+       
+
+
+/* galalry name  */
+
+h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+h1 span{
+    margin-left: 15px;
+    color: #bca1aa;
+    font-family: mv boli;
+       }
+
+h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #c4b3b9;
+    display: block;
+    position: relative;
+    bottom: 15px;
+     }
+
+
+
+.about-section{
+    width:100%;
+     height:200%; 
+    background: url(image/Indian.jpg) no-repeat left;
+    /* background-size: 60%; */
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    height: 80%;
+    float: right;
+    background-color:greenyellow;
+    padding: 150px;
+   
+}
+
+.inner-container{
+    background-image: url("image/green3.jpg");
+    background-size: cover;
+}
+
+
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 900;
+    
+
+}
+
+.text{
+    font-size: 20px;
+    color: rgb(167, 27, 46);
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+
+
+.wrapper.six h2{
+    font-size: 20px;
+    position: center;
+    top: -90px;
+    align-items: center;
+    text-align: center;
+    font-family:serif;
+    background-color:white; 
+}
+.wrapper.six{
+    
+    display:grid;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;   
+     /* background-image: url("image/b.jpg");*/
+    height: 710px;
+    top:10px;
+    left:0px;
+    width: 100%;
+    background-image: url("image/Maharashtra.jpg");
+    background-size: cover;
+  }
+  .flicker {
+    font-size: 8rem;
+    background-color: #e6e6e6;
+    font-family:'Merienda', sans-serif;
+    margin: 1rem auto;
+    text-decoration-color:#fa3159 ;
+    color: #053017b0;
+    background: -webkit-gradient(linear, left top, right top, from(#403535), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 130px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 1.5s infinite;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+
+  

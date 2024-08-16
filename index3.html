@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Explore The Maharashtra</title>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+    <link rel="icon" href="icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tillana:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+	
+<nav>
+	<div class="logo" style="color: orange; font-weight: 1000;"> <h2 class="animated infinite pulse"> Explore The Maharashtra </h2> </div>
+	<div class="menu" id="p1">
+		<a href="#" style="font-size:10 ">Home</a>	
+		<a href="#p2">about</a>
+		<a href="#p3">contact</a>
+	</div>
+	
+	</nav>
+
+	<main>
+		<section>
+			<h3>Welcome To</h3><h2>Maharashtra</h2>
+			<h1>DO COME & VISIT <span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+			<p>"Maharashtra once is not enough"</p>
+			<a href="index1.html" class="btnone">Explore</a>
+			
+		</section>
+	
+	</main>
+	<body>
+		<div class="menu" id="p2">
+			<a href="#p1"></a>
+			<h1>About</h1>
+			<p><h3>After independence from the British in 1947, the state of Maharashtra was formed in 1960 after a campaign to create a Marathi-speaking state in the 1950s. From the 4th century BC until 875, Maharashtri Prakrit and its dialects were the dominant languages of the region.Maharashtra is one of India’s largest commercial and industrial centres, which has led to its being called the gateway of India. Maharashtra is also famous for its culture and beauty. The ancient cave paintings found at Ajanta and Ellora are UNESCO World Heritage sites and popular tourist destinations. Music, dance, Bollywood, festivals, and much more contribute to this lively culture.Which is the coolest place in Maharashtra?
+				If you want to explore the coldest spots of Maharashtra, you can visit Amboli, Mahabaleshwar, Lonavala, Khandala, Matheran, etc. However, plan your visit in the winter months to enjoy the most.Aurangabad. This town serves as a stop for tourists en route to the historic Ajanta and Ellora caves, but its own unique Mughal architecture and deep historical significance makes it one of Maharashtra's most beautiful offerings.</h3></p>
+			</div>
+
+		</div>
+		<br><br><br>
+		<!--menu-->
+		
+		<div class="menut" id="Menut">
+			<h1>Our<span>tourist places Map</span></h1>
+		   <center> <img src="image/maharashtra.png" style="width:80%"class="center"></center>
+	
+	
+	<!-- our gallary images-->
+			<h1>Our<span> gallary</span></h1>
+			<center>
+		<div class="slideshow-container">
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 6</div>
+			  <img src="image/Ajanta-Caves.jpg" style="width:50%">
+			  <div class="text">Ajanta-Caves</div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 6</div>
+			  <img src="image/tarkarli.jpg" style="width:50%">
+			  <div class="text">tarkarli beach</div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 6</div>
+			  <img src="image/kolad.jpg" style="width:50%">
+			  <div class="text">kolad</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">4/ 6</div>
+				<img src="image/murud-janjira.jpg" style="width:50%">
+				<div class="text">murud-janjira</div>
+			  </div>
+			  <div class="mySlides fade">
+				<div class="numbertext">5/ 6</div>
+				<img src="image/pune.jpg" style="width:50%">
+				<div class="text">pune</div>
+			  </div>
+			  <div class="mySlides fade">
+				<div class="numbertext">6/ 6</div>
+				<img src="image/kolhapur.jpg" style="width:50%">
+				<div class="text">kolhapur</div>
+			  </div>
+			</center>
+			
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span>
+			  <span class="dot"></span>
+			  <span class="dot"></span>
+			  <span class="dot"></span> 
+			</div>
+			
+			<script>
+			let slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+			</script>
+			
+	  <footer>
+	  <div class="footer_main" id="p3">
+		<a href="#p4"></a>	   
+		<div class="footer_tag">
+			<h2>Location</h2>
+			<p>Sri Lanka</p>
+			<p>USA</p>
+			<p>India</p>
+			<p>Japan</p>
+			<p>Italy</p>
+		</div>
+			   
+		<div class="footer_tag">
+			<h2>Quick Link</h2>
+			<p>Home</p>
+			<p>places to visit</p>
+			<p>About us</p>
+			<p>Gallary</p>
+			<p>Reviews</p>
+		</div>
+			   
+		 <div class="footer_tag">
+			<h2>Contact</h2>
+			<p>+91 8082301886</p>
+			<p>+91 9075824809</p>
+			<p>lipakshidesale123@gmail.com</p>
+			<p>tanishqborse123@gmail.com</p>
+		</div>
+			   
+		<div class="footer_tag">
+			<h2>Our Service</h2>
+			<p>fullfill information</p>
+			<p>Easy to read</p>
+			<p></p>
+		</div>
+			   
+			   
+		 </div>
+			   
+		  <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> TECH BLAT</span></p>
+			   
+		</footer>
+	
+	</body>
+
+</header>
+
+</body>
+</html>
